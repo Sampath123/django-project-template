@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{title}}</title>
+</head>
+<body>
+ <h1>{{users}}</h1> 
+
+{% for task in tasks %}
+   <div > {{ task.task_name }}<br>
+    {{ task.task_description }}<div></div>
+{% endfor %} 
+</body>
+</html>
